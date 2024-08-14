@@ -4,3 +4,10 @@ export const actionTodo = (data) => {
 		payload: data,
 	};
 };
+
+export const actionSearchFilter = (data) => {
+	return {
+		type: 'filter/searchText',
+		payload: data,
+	};
+};
